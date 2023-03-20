@@ -41,7 +41,6 @@ export default function Home({data}) {
     
   );
 }
-
 export async function getServerSideProps() {
 // this code runs only on server side and runs first
 // client or user wont be able to see any data written in this section
